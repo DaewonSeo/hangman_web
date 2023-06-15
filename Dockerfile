@@ -1,4 +1,5 @@
 FROM python:3.8-slim-buster
+LABEL Maintainer="sdw6908@gmail.com"
 WORKDIR /hangman_app
 COPY app.py ./
 COPY requirements.txt ./
